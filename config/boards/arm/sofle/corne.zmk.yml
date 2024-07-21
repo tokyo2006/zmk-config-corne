@@ -1,0 +1,15 @@
+file_format: "1"
+id: corne
+name: Sofle
+url: https://github.com/tokyo2006/zmk-config-corne
+type: board
+arch: arm
+features:
+  - keys
+  - display
+outputs:
+  - usb
+  - ble
+siblings:
+  - corne_left
+  - corne_right

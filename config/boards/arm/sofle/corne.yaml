@@ -1,0 +1,20 @@
+identifier: corne
+name: Solfe
+url: https://github.com/tokyo2006/zmk-config-corne
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 40
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
+  - gpio
+  - i2c
+  - spi
