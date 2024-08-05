@@ -122,11 +122,11 @@
 
         Qwery {
             bindings = <
-&kp ESC    &kp Q  &kp W       &kp E             &kp R       &kp T           &kp UP_ARROW     &kp Y         &kp U         &kp I          &kp O    &kp P     &kp EQUAL
-&kp TAB    &kp A  &kp S       &kp D             &kp F       &kp G           &kp DOWN_ARROW   &kp H         &kp J         &kp K          &kp L    &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z  &kp X       &kp C             &kp V       &kp B           &kp LEFT_ARROW   &kp N         &kp M         &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
-                  &kp K_MUTE  &ltq 1 BACKSPACE  &ltq 2 TAB  &ltq 3 SPACE    &kp RIGHT_ARROW  &ltq 3 SPACE  &ltq 2 ENTER  &ltq 1 DELETE
-                                                                            &kp ENTER
+&kp ESC    &kp Q  &kp W            &kp E             &kp R       &kp T           &kp UP_ARROW     &kp Y         &kp U         &kp I          &kp O    &kp P     &kp EQUAL
+&kp TAB    &kp A  &kp S            &kp D             &kp F       &kp G           &kp DOWN_ARROW   &kp H         &kp J         &kp K          &kp L    &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z  &kp X            &kp C             &kp V       &kp B           &kp LEFT_ARROW   &kp N         &kp M         &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
+                  &rgb_ug RGB_TOG  &ltq 1 BACKSPACE  &ltq 2 TAB  &ltq 3 SPACE    &kp RIGHT_ARROW  &ltq 3 SPACE  &ltq 2 ENTER  &ltq 1 DELETE
+                                                                                 &kp ENTER
             >;
 
             label = "Qwery";
