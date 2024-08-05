@@ -40,7 +40,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - MUTE
+  - RGB TOG
   - {t: '$$mdi:backspace$$', h: '$$mdi:navigation-variant$$'}
   - {t: '$$mdi:keyboard-tab$$', h: Number}
   - {t: '$$mdi:keyboard-space$$', h: Modify}
