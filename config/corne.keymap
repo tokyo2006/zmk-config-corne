@@ -38,7 +38,7 @@
             tap-ms = <0>;
             bindings =
                 <&macro_press>,
-                <&lt 0 END>,
+                <&ltq 0 END>,
                 <&macro_tap>,
                 <&rgb_ug RGB_COLOR_HSB(300,100,50)>,
                 <&macro_pause_for_release>,
@@ -115,6 +115,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <135>;
             quick-tap-ms = <0>;
+        };
+
+        rgb_encoder: rgb_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_ENCODER";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
         };
     };
 
@@ -241,6 +248,7 @@
             >;
 
             label = "Rgb";
+            sensor-bindings = <&rgb_encoder>;
         };
     };
 
