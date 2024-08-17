@@ -182,7 +182,7 @@
 &as TILDE GRAVE  &kp Q  &kp W  &kp E             &kp R       &kp T           &kp UP_ARROW     &kp Y         &kp U         &kp I                &kp O                    &kp P                &as PLUS EQUAL
 &kp CAPSLOCK     &kp A  &kp S  &kp D             &kp F       &kp G           &kp DOWN_ARROW   &kp H         &kp J         &kp K                &kp L                    &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
 &kp ESCAPE       &kp Z  &kp X  &kp C             &kp V       &kp B           &kp LEFT_ARROW   &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &kp RSHFT
-                        &to 5  &ltq 1 BACKSPACE  &ltq 2 TAB  &ltq 3 SPACE    &kp RIGHT_ARROW  &ltq 3 SPACE  &ltq 2 ENTER  &ltq 1 DELETE
+                        &to 5  &ltq 1 BACKSPACE  &ltq 3 TAB  &ltq 2 SPACE    &kp RIGHT_ARROW  &ltq 3 SPACE  &ltq 2 ENTER  &ltq 6 DELETE
                                                                              &kp ENTER
             >;
 
@@ -249,6 +249,18 @@
 
             label = "Rgb";
             sensor-bindings = <&rgb_encoder>;
+        };
+
+        Mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
+
+            label = "Mouse";
         };
     };
 
