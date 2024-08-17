@@ -294,3 +294,22 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
+combos:
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
+- p: [3, 4]
+  k: {t: '[', s: '{'}
+- p: [9, 8]
+  k: {t: ']', s: '}'}
+- p: [16, 17]
+  k: (
+- p: [21, 22]
+  k: )
+- p: [29, 30]
+  k: '{'
+- p: [34, 35]
+  k: '}'
+- p: [5, 7]
+  k: \
+- p: [18, 20]
+  k: '|'
