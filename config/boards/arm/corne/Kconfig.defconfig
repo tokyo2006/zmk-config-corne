@@ -49,7 +49,7 @@ endchoice
 
 endif
 
-if LVGL
+if SSD1306
 
 config LV_Z_VDB_SIZE
     default 64
