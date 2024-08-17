@@ -118,6 +118,55 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        left_bkt {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <3 4>;
+        };
+
+        right_bkt {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <9 8>;
+        };
+
+        left_par {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 17>;
+        };
+
+        right_par {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <21 22>;
+        };
+
+        left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <29 30>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <34 35>;
+        };
+
+        bac {
+            bindings = <&kp NON_US_BACKSLASH>;
+            key-positions = <5 7>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <18 20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
