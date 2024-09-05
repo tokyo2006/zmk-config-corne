@@ -119,11 +119,11 @@
             quick-tap-ms = <0>;
         };
 
-        rgb_encoder: rgb_encoder {
+        scroll_encoder: scroll_encoder {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "RGB_ENCODER";
+            label = "SCROLL_ENCODER";
             #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+            bindings = <&msc SCRL_UP >, <&msc SCRL_DOWN >;
         };
     };
 
@@ -255,14 +255,15 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_1  &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_4  &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_2  &trans     &trans     &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans    &kp KP_NUMBER_3  &mkp LCLK  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP  &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN  &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &trans     &trans     &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK  &trans
                                                   &to 0
             >;
 
             label = "Mouse";
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 
