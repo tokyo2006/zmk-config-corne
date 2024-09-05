@@ -56,7 +56,7 @@
             tapping-term-ms = <135>;
             quick-tap-ms = <0>;
         };
-        
+
         rgb_encoder: rgb_encoder {
             compatible = "zmk,behavior-sensor-rotate";
             label = "RGB_ENCODER";
@@ -68,6 +68,7 @@
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
+
             label = "SCROLL_ENCODER";
         };
     };
@@ -200,9 +201,9 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP  &trans     &trans     &trans  &trans  &trans  &mmv MOVE_UP
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN  &trans     &trans     &trans  &trans  &trans  &mmv MOVE_UP
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans     &trans     &trans  &trans  &trans  &mmv MOVE_HOR 200
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans     &trans     &trans  &trans  &trans  &mmv MOVE_VERT 200
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans     &trans     &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK  &trans
                                                   &to 0
             >;
