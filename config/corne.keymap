@@ -1,10 +1,10 @@
+#include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <behaviors/mouse_keys.dtsi>
 
 / {
     macros {
@@ -185,7 +185,7 @@
 &kp CAPSLOCK     &kp A  &kp S  &kp D             &kp F       &kp G           &kp DOWN_ARROW   &kp H         &kp J         &kp K                &kp L                    &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
 &kp ESCAPE       &kp Z  &kp X  &kp C             &kp V       &kp B           &kp LEFT_ARROW   &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &kp RSHFT
                         &to 5  &ltq 1 BACKSPACE  &ltq 3 TAB  &ltq 2 SPACE    &kp RIGHT_ARROW  &ltq 3 SPACE  &ltq 2 ENTER  &ltq 6 DELETE
-                                                                             &kp ENTER
+                                                                             &to 6
             >;
 
             label = "Qwery";
@@ -255,11 +255,11 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-                                                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_1  &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_4  &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_2  &trans     &trans     &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &kp KP_NUMBER_3  &mkp LCLK  &mkp RCLK  &trans
+                                                  &to 0
             >;
 
             label = "Mouse";
