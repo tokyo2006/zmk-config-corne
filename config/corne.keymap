@@ -1,4 +1,4 @@
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 50
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 35
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &msc {
-    time-to-max-speed-ms = <5000>;
+    time-to-max-speed-ms = <400>;
     acceleration-exponent = <1>;
 };
 
