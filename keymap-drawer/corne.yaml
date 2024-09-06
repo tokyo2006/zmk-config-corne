@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Modify:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+ Q
   - '1'
   - '2'
   - '3'
