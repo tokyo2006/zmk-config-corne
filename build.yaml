@@ -7,5 +7,5 @@ include:
     shield: nice_view_adapter nice_view
     artifact-name: corne_left_nice_view
   - board: corne_right
-    shield: nice_view_adapter nice_view
+    shield: nice_view_adapter nice_view_custom
     artifact-name: corne_right_nice_view
