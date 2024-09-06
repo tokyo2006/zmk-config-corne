@@ -1,4 +1,4 @@
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 35
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 50
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
