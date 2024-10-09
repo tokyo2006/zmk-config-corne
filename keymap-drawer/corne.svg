@@ -602,6 +602,7 @@ rect.held, rect.combo.held {
 <path d="M462,70 l135,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="57" width="28" height="26" class="combo"/>
 <text x="462" y="70" class="combo tap">\</text>
+<text x="462" y="59" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-8">
 <path d="M462,126 l-135,0" class="combo"/>
@@ -891,6 +892,7 @@ rect.held, rect.combo.held {
 <path d="M462,70 l135,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="57" width="28" height="26" class="combo"/>
 <text x="462" y="70" class="combo tap">\</text>
+<text x="462" y="59" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-8">
 <path d="M462,126 l-135,0" class="combo"/>
@@ -1186,6 +1188,7 @@ rect.held, rect.combo.held {
 <path d="M462,70 l135,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="57" width="28" height="26" class="combo"/>
 <text x="462" y="70" class="combo tap">\</text>
+<text x="462" y="59" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-8">
 <path d="M462,126 l-135,0" class="combo"/>
@@ -1487,6 +1490,7 @@ rect.held, rect.combo.held {
 <path d="M462,70 l135,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="57" width="28" height="26" class="combo"/>
 <text x="462" y="70" class="combo tap">\</text>
+<text x="462" y="59" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-8">
 <path d="M462,126 l-135,0" class="combo"/>
@@ -1781,6 +1785,7 @@ rect.held, rect.combo.held {
 <path d="M462,70 l135,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="57" width="28" height="26" class="combo"/>
 <text x="462" y="70" class="combo tap">\</text>
+<text x="462" y="59" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-8">
 <path d="M462,126 l-135,0" class="combo"/>
@@ -2094,6 +2099,7 @@ rect.held, rect.combo.held {
 <path d="M462,70 l135,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="57" width="28" height="26" class="combo"/>
 <text x="462" y="70" class="combo tap">\</text>
+<text x="462" y="59" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-8">
 <path d="M462,126 l-135,0" class="combo"/>
@@ -2386,6 +2392,7 @@ rect.held, rect.combo.held {
 <path d="M462,70 l135,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="57" width="28" height="26" class="combo"/>
 <text x="462" y="70" class="combo tap">\</text>
+<text x="462" y="59" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-8">
 <path d="M462,126 l-135,0" class="combo"/>
