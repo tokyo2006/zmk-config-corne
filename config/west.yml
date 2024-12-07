@@ -7,8 +7,11 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: feat/pointers-move-scroll
+      revision: feat/pointers-with-input-processors
       import: app/west.yml
+    - name: eyelash_corne
+      url: https://github.com/a741725193/zmk-new_corne
+      revision: main
     - name: mario-peripheral-animation
       remote: gpeye
       revision: main 
