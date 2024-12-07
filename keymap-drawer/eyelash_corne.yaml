@@ -14,19 +14,19 @@ layers:
   - P
   - {t: '=', h: +, s: +}
   - $$mdi:apple-keyboard-caps$$
-  - A
-  - S
-  - D
-  - F
+  - {t: A, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, s: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, s: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-down-bold$$
   - H
-  - J
-  - K
-  - L
+  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, s: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, s: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: ':', s: ':'}
   - {t: '''', h: '"', s: '"'}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -38,14 +38,14 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
   - {t: /, h: '?', s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Rgb, h: toggle}
   - {t: '$$mdi:backspace$$', h: '$$mdi:navigation-variant$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-space$$', h: Modify}
-  - {t: '$$mdi:keyboard-return$$', h: Symbol}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Mouse}
   - {t: Mouse, h: toggle}
   Navi:
@@ -129,12 +129,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
+  - {t: '=', h: +, s: +}
+  - {t: '''', h: '"', s: '"'}
+  - {t: \, h: '|', s: '|'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -143,11 +143,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Modify:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+ Q
   - '1'
   - '2'
   - '3'
@@ -191,7 +191,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -240,8 +240,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Rgb:
@@ -335,8 +335,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -358,6 +358,6 @@ combos:
 - p: [34, 35]
   k: '}'
 - p: [5, 7]
-  k: \
+  k: {t: \, s: '|'}
 - p: [18, 20]
   k: '|'
